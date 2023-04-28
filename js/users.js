@@ -16,7 +16,7 @@ function bejelentkezés(){
     if(!admin && !diák){
         for(let i = 0; i < adminNév.length; i++){
             if(felhasználóNév == adminNév[i] && jelszó == adminJelszó[i]){
-                    alert("üdvözlek " + felhasználóNév);
+                 
                     admin = true;
                     open("timetable113c.html");
                     break;
@@ -28,7 +28,7 @@ function bejelentkezés(){
     if(!admin && !diák){
             for(let i = 0; i < diákNév.length; i++){
                 if(felhasználóNév == diákNév[i] && jelszó == diákJelszó[i]){
-                    alert("üdvözlek " + felhasználóNév);
+                  
                     diák = true;
                     open("timetable113c.html");
                     break;
