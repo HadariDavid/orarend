@@ -11,6 +11,10 @@ h1{
 
 th{
     text-align: center !important;
+    background-color: #39ff32;
+}
+td:first-child{
+    background-color: #39ff32;
 }
 
 td{
@@ -18,8 +22,21 @@ td{
     text-align: center !important;
 }
 
+
+td:hover{
+    background-color: rgba(54, 248, 54, 0.479);
+}
+
+td p{
+    cursor: pointer !important;
+}
+
+tr:nth-child(even){
+    background-color: rgb(129, 175, 245) !important;
+}
+
 #TableDiv{
-    margin:0% 12% ;
+    margin:0% 13% ;
     position: absolute;
     z-index: 0;
 }
@@ -37,12 +54,16 @@ td{
     border: 5px solid royalblue;
     background-color: #85bbf8;
     display: block;
-    position: absolute;
+
+    position: fixed;
     z-index: 1;
 
     margin: 5% 15%;
     padding: 3%;
+
+    min-width: 60px;
     width: 70vw;
+    min-height: 400px;
     height: 60vh;
 
 }
@@ -62,6 +83,8 @@ button{
     background-color: rgb(75, 145, 248) !important;
     margin-bottom: 3%;
 }
+
+
 
 
 /*login////////////*/
